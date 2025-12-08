@@ -5,7 +5,7 @@ function fnMedia(){
     marco = Number ( document.getElementById("marco_2018").value)
     media= (janeiro+fevereiro+marco)/3
     document.getElementById("resultadoMedia").innerHTML=`Média de ${media}`
-    document.getElementById("janeiro_2018").value
+    document.getElementById("janeiro_2018").value=""
     
 
 }
